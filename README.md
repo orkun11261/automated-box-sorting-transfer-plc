@@ -341,7 +341,7 @@ automated-box-sorting-transfer-plc/
 
 Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
-Developed by **Orkun Arda**  
+Developed by **Orkun Kara**  
 Industrial Automation & Control Systems Engineer  
 - GitHub: [@orkun11261](https://github.com/orkun11261)  
 - LinkedIn: [linkedin.com/in/orkun-kara](https://www.linkedin.com/in/orkun-kara-4892792aa/)

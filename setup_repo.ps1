@@ -4,7 +4,7 @@
 .DESCRIPTION
     Creates industry-standard directory hierarchy, configuration files, README, and documentation.
 .AUTHOR
-    Orkun Arda
+    Orkun Kara
 #>
 
 [CmdletBinding()]
