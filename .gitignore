@@ -1,0 +1,65 @@
+# ==============================================================================
+# Siemens TIA Portal & Industrial Automation .gitignore
+# ==============================================================================
+
+# --- Siemens TIA Portal Temporary, Cache & Build Artifacts ---
+*.tmp
+*.bak
+*~*
+PEData*
+*.peData
+*.dmp
+*.log
+*.svlog
+*.s7d
+*.s7f
+*.s7p
+*.ldf
+*.mdf
+*.hdb
+*.ldb
+*.idb
+
+# TIA Portal IM (Intermediate/Compilation) and System Files
+[Uu]ser[Ff]iles/
+[Uu]ndo/
+[Ll]ogs/
+[Tt]mp/
+IM/
+HMI/
+[Aa]dd[Oo]ns/
+*.s7-1200/
+*.s7-1500/
+
+# PLCSIM V13/V14/V15/V16/V17/V18/V19 Runtime Files
+*.sim
+*.sim18
+*.sim19
+*.pbp
+
+# Note: Do NOT ignore TIA Portal Archive files (.zap15, .zap16, .zap17, .zap18, .zap19, .zap20)
+!*.zap*
+
+# --- Factory I/O Specific ---
+*.factoryio.bak
+*.autosave
+
+# --- OS Artifacts & System Caches ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows shortcuts and explorer files
+*.lnk
+
+# --- IDE & Editor Caches ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
